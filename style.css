@@ -1,0 +1,97 @@
+body{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 32.813rem;
+}
+
+.Product{
+    max-width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.Box2{
+
+    padding: 40px;
+    
+}
+
+.container-price{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    bottom: 20px;
+}
+
+.Item-price-1{
+    color: hsl(158, 36%, 37%);
+}
+.Item-price-2{
+    margin: 15px;
+    text-decoration: line-through;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2.3rem;
+
+}
+
+p{
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+}
+
+.Head{
+    position: relative;
+    top: 10px;
+}
+
+button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color:hsl(158, 36%, 37%) ;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    width: 16rem;
+    height: 3rem;
+    position: relative;
+    bottom: 20px;
+}
+button:hover{
+    background-color:  hsl(212, 21%, 14%) ;
+    cursor: pointer;
+}
+
+.Cart{
+    margin: 10px;
+}
+
